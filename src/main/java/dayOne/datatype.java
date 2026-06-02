@@ -1,57 +1,51 @@
 package dayOne;
 
-public class DataTypes {
+public class datatype {
+
+    // Static variable
+    static boolean hamada; // default value = false
 
     public static void main(String[] args) {
 
-        // primitive data types
+        // =========================
+        // Primitive Data Types
+        // =========================
 
-        int myInt = 100; // Size 4 bytes
+        int myInt = 100;           // 4 bytes
+        byte myByte = 10;          // 1 byte
+        short myShort = 30000;     // 2 bytes
+        long myLong = 100000L;     // 8 bytes
 
-        byte myByte = 10; // Size 1 byte
+        float myFloat = 1000.0F;   // 4 bytes
+        double myDouble = 10000.0; // 8 bytes
 
-        short myShort = 30000; // Size 2 bytes
-
-        long myLong = 100000L; // Size 8 bytes
-
-        float myFloat = 1000.0F; // size 4 bytes
-
-        double myDouble = 10000.0; // size 8 bytes
-
+        // =========================
+        // Printing Numbers
+        // =========================
 
         System.out.println("Integer: " + myInt);
-
         System.out.println("Byte: " + myByte);
-
         System.out.println("Short: " + myShort);
-
         System.out.println("Long: " + myLong);
-
         System.out.println("Float: " + myFloat);
-
         System.out.println("Double: " + myDouble);
 
+        // =========================
+        // Character
+        // =========================
 
-        // char
-
-        char myChar = 'A'; // size 2 bytes
-
+        char myChar = 'A'; // 2 bytes
         System.out.println("Char: " + myChar);
 
+        // =========================
+        // Boolean
+        // =========================
 
-        // boolean -> true , false
+        boolean myBool = true;
+        System.out.println("Boolean: " + myBool);
 
-        boolean myBool = true; // Size 1 byte, default false
-        /*false=0
-        true=1
-         */
-
-
-
-        System.out.println("Bool: " + hamada);
+        // Static variable example
+        System.out.println("Hamada: " + hamada);
 
     }
-
-    static boolean hamada; // default false 1 usage
-
 }
