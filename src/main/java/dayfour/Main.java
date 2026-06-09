@@ -9,7 +9,7 @@ public class Main {
         /*rectangle rectangle = new rectangle();  // now im calling method from class
         // i have a cope of rectangle class that had a rectangle method so i have the ability to view what insid this class
         double x = rectangle.calcArea();*/
-        rectangle   r1 = new rectangle();
+        /*rectangle   r1 = new rectangle();
         r1.setLength(10);
         r1.setWidth(20);
         double total = r1.calcArea();
@@ -31,5 +31,5 @@ public class Main {
     public void num(int a,int b){
         int sum = a+b;
         System.out.println("the sum of " + a + " and " + b + " is " + sum);
-    }
+    */}
 }
